@@ -1,11 +1,46 @@
+aid: cncf
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/cncf/refs/heads/main/apis.yml
 name: CNCF
-description: CNCF is a manufacturing or industrial technology used to design, produce,
-  or manage physical products and production processes. It leverages automation, precision
-  engineering, and digital controls to improve quality, efficiency, and throughput.
-url: null
 tags:
-- CNCF
-created: '2025'
-modified: '2025'
-apis: []
-common: []
+  - Cloud Native
+  - Open Source
+  - Kubernetes
+  - Containers
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-01-01'
+modified: '2026-03-16'
+position: Consumer
+description: >-
+  The Cloud Native Computing Foundation (CNCF) is part of the Linux Foundation
+  and hosts critical components of the global technology infrastructure,
+  including Kubernetes, Prometheus, and Envoy. CNCF fosters collaborative
+  development and adoption of cloud native technologies.
+apis:
+  - aid: cncf:cncf-api
+    name: CNCF API
+    tags:
+      - Cloud Native
+      - Open Source
+    humanURL: https://www.cncf.io/
+    properties:
+      - url: https://www.cncf.io/
+        type: Documentation
+    description: >-
+      CNCF provides APIs and tools for cloud native computing, including
+      project management and landscape data.
+common:
+  - type: Website
+    url: https://www.cncf.io/
+  - type: Blog
+    url: https://www.cncf.io/blog/
+  - type: GitHub Organization
+    url: https://github.com/cncf
+  - type: Privacy Policy
+    url: https://www.linuxfoundation.org/privacy/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+specificationVersion: '0.19'
