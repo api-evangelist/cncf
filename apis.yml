@@ -4,9 +4,9 @@ url: >-
 name: CNCF
 tags:
   - Cloud Native
-  - Open Source
-  - Kubernetes
   - Containers
+  - Kubernetes
+  - Open Source
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
