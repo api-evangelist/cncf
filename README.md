@@ -7,7 +7,7 @@ The Cloud Native Computing Foundation (CNCF) is part of the Linux Foundation and
 ## Scope
 
 - **Type:** Index
-- **x-type:** standard
+- **x-type:** opensource
 - **Access:** 3rd-Party
 
 ## Tags
