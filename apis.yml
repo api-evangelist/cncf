@@ -1,7 +1,7 @@
 aid: cncf
 url: https://raw.githubusercontent.com/api-evangelist/cncf/refs/heads/main/apis.yml
 name: CNCF
-x-type: opensource
+kind: opensource
 tags:
   - Cloud Native
   - Containers
