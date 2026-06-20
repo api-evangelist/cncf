@@ -9,7 +9,7 @@ tags:
   - Open Source
   - Standards
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-01'
 modified: '2026-04-23'
@@ -30,7 +30,7 @@ apis:
       - Cloud Native
       - Landscape
       - Open Data
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://landscape.cncf.io/
     properties:
       - url: https://landscape.cncf.io/
@@ -72,7 +72,7 @@ apis:
       - Kubernetes
       - Open Source
       - Standards
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cncf.io/projects/
     properties:
       - url: https://www.cncf.io/projects/
