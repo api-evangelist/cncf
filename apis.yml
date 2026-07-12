@@ -94,6 +94,8 @@ apis:
       - name: Standards Stewardship
         description: Stewardship of foundational cloud-native API standards.
 common:
+  - type: DomainSecurity
+    url: security/cncf-domain-security.yml
   - url: https://www.cncf.io/
     type: Website
   - url: https://landscape.cncf.io/
