@@ -25,7 +25,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cncf.png
 access: 3rd-Party
 created: '2025-01-01'
 modified: '2026-04-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 description: >-
   The Cloud Native Computing Foundation (CNCF) is part of the Linux Foundation
   and hosts critical components of the global cloud-native technology
