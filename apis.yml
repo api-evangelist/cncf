@@ -3,6 +3,12 @@ url: https://raw.githubusercontent.com/api-evangelist/cncf/refs/heads/main/apis.
 name: CNCF
 kind: opensource
 tags:
+  - Cloud-Native
+  - Containers
+  - Kubernetes
+  - Open-Source
+  - Standards
+tags_raw:
   - Cloud Native
   - Containers
   - Kubernetes
@@ -38,6 +44,11 @@ apis:
   - aid: cncf:cncf-landscape
     name: CNCF Cloud Native Interactive Landscape
     tags:
+      - Catalog
+      - Cloud-Native
+      - Landscape
+      - Open Data
+    tags_raw:
       - Catalog
       - Cloud Native
       - Landscape
@@ -81,6 +92,10 @@ apis:
   - aid: cncf:cncf-projects
     name: CNCF Hosted Projects (Standards Steward)
     tags:
+      - Kubernetes
+      - Open-Source
+      - Standards
+    tags_raw:
       - Kubernetes
       - Open Source
       - Standards
