@@ -6,7 +6,7 @@ tags:
   - Cloud-Native
   - Containers
   - Kubernetes
-  - Open-Source
+  - Open Source
   - Standards
 tags_raw:
   - Cloud Native
@@ -14,17 +14,22 @@ tags_raw:
   - Kubernetes
   - Open Source
   - Standards
+  - Open-Source
 type: Index
 deliveryModel:
   model: unknown
+  license_evidence:
+    not_product:
+    - cncf/landscape
+    - cncf/landscape2
   open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -104,12 +109,13 @@ apis:
     name: CNCF Hosted Projects (Standards Steward)
     tags:
       - Kubernetes
-      - Open-Source
+      - Open Source
       - Standards
     tags_raw:
       - Kubernetes
       - Open Source
       - Standards
+      - Open-Source
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cncf.io/projects/
     properties:
