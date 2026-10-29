@@ -1,4 +1,4 @@
-# CNCF (cncf)
+# CNCF
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,75 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Cloud Native Computing Foundation (CNCF) is part of the Linux Foundation and hosts critical components of the global cloud-native technology infrastructure — including Kubernetes, Prometheus, Envoy, etcd, OpenTelemetry, CloudEvents, gRPC, and CNI. CNCF stewards open-source project governance and publishes the Cloud Native Interactive Landscape, a community-curated dataset (landscape.yml) of cloud-native projects and products.
+The Cloud Native Computing Foundation (CNCF) is part of the Linux Foundation and hosts critical components of the global cloud-native technology infrastructure - including Kubernetes, Prometheus, Envoy, etcd, OpenTelemetry, CloudEvents, gRPC, and CNI. CNCF stewards open-source project governance and publishes the Cloud Native Interactive Landscape, a community-curated dataset (landscape.yml) of cloud-native projects and products with metadata such as GitHub stars, contributor counts, funding, and headquarters location.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/cncf/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/cncf/refs/heads/main/apis.yml)
+**Areas:** Cloud-Native · Containers · Kubernetes · Open Source · Standards
 
-## Scope
+## CNCF on APIs.io
 
-- **Type:** Index
-- **x-type:** opensource
-- **Access:** 3rd-Party
+Everything profiled for CNCF is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cncf/](https://apis.io/providers/cncf/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Cloud Native
-- Containers
-- Kubernetes
-- Open Source
-- Standards
+- [CNCF Cloud Native Interactive Landscape](https://apis.io/apis/cncf/cncf-landscape/) — The CNCF Cloud Native Interactive Landscape is the canonical map of the cloud-native ecosystem. The landscape is generated daily from landscape.yml and…
+- [CNCF Hosted Projects (Standards Steward)](https://apis.io/apis/cncf/cncf-projects/) — CNCF stewards an open-source project portfolio whose APIs underpin much of modern cloud infrastructure - Kubernetes API, OpenTelemetry, CloudEvents, gRPC,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-23
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### CNCF Cloud Native Interactive Landscape
+Authentication, trust centre, and vulnerability disclosure.
 
-The canonical map of the cloud-native ecosystem. Generated daily from landscape.yml and enriched with Crunchbase and GitHub data, providing a structured, machine-readable catalog of hundreds of cloud-native projects and products.
+- [Cncf Domain Security](https://apis.io/security/cncf/cncf-domain-security/)
 
-**Human URL:** [https://landscape.cncf.io/](https://landscape.cncf.io/)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Catalog, Cloud Native, Landscape, Open Data
+- [Cncf Plans Pricing](https://apis.io/plans/cncf/cncf-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://landscape.cncf.io/)
-- [GitHub Repository](https://github.com/cncf/landscape)
-- [Dataset (landscape.yml)](https://github.com/cncf/landscape/blob/master/landscape.yml)
-- [Landscape2 Generator](https://github.com/cncf/landscape2)
+Published request limits.
 
-#### Features
+- [Cncf Rate Limits](https://apis.io/rate-limits/cncf/cncf-rate-limits/)
 
-- **Project Catalog:** Hundreds of cloud-native projects and products with structured metadata.
-- **Maturity Levels:** Graduated, Incubating, Sandbox, and Archived classifications.
-- **GitHub Metrics:** GitHub stars, contributors, and commit activity per project.
-- **Categories and Subcategories:** Provisioning, Runtime, Orchestration, App Definition, Observability, etc.
+#### FinOps (1)
 
-### CNCF Hosted Projects (Standards Steward)
+What the API costs to run, by operation.
 
-CNCF stewards an open-source project portfolio whose APIs underpin much of modern cloud infrastructure — Kubernetes API, OpenTelemetry, CloudEvents, gRPC, CNI, CSI, OCI image/runtime specs, Prometheus exposition format, etcd, Envoy xDS, and more.
+- [Cncf Finops](https://apis.io/finops/cncf/cncf-finops/)
 
-**Human URL:** [https://www.cncf.io/projects/](https://www.cncf.io/projects/)
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.cncf.io/)
-- [CNCF Cloud Native Landscape](https://landscape.cncf.io/)
-- [Graduated and Incubating Projects](https://www.cncf.io/projects/)
-- [CNCF Blog](https://www.cncf.io/blog/)
-- [GitHub Organization](https://github.com/cncf)
-- [Privacy Policy](https://www.linuxfoundation.org/privacy/)
-- [X](https://twitter.com/CloudNativeFdn)
-- [LinkedIn](https://www.linkedin.com/company/cloud-native-computing-foundation/)
-- [YouTube](https://www.youtube.com/c/cloudnativefdn)
+- [Blog](https://www.cncf.io/blog/)
+- [Privacy policy](https://www.linuxfoundation.org/privacy/)
+- [GitHub](https://github.com/cncf)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.7** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cncf/](https://apis.io/providers/cncf/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CNCF: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cncf/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
